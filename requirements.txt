@@ -1,0 +1,3 @@
+Scrapy
+beautifulsoup4
+lxml

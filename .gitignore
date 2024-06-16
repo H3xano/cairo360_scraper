@@ -1,9 +1,44 @@
-/articles/
-*.json
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Scrapy specific files
+. scrapy/
+scrapy.cfg
+
+# Logs and databases
+*.log
+*.db
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Custom
 article_urls.txt
-merge.py
-/.venv/
-/.idea/
-/.git/
-*/__pycache__/
-*/*/__pycache__/
+progress.json
+failed_tasks.txt
+articles/
+combined_articles.json
+
+# VSCode
+.vscode/
+.idea/

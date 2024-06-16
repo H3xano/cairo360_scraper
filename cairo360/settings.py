@@ -17,9 +17,9 @@ FEED_EXPORT_ENCODING='UTF-8'
 LOG_ENABLED = True
 
 # Configure item pipelines
-ITEM_PIPELINES = {
-    'cairo360.pipelines.Cairo360Pipeline': 300,
-}
+# ITEM_PIPELINES = {
+#     'cairo360.pipelines.Cairo360Pipeline': 300,
+# }
 
 # Other settings
 DOWNLOAD_DELAY = 1
