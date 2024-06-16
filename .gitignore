@@ -1,0 +1,9 @@
+/articles/
+*.json
+article_urls.txt
+merge.py
+/.venv/
+/.idea/
+/.git/
+*/__pycache__/
+*/*/__pycache__/
